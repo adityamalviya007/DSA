@@ -11,7 +11,7 @@ class Solution {
             if (price - minPrice > maxProfit){
                 maxProfit = price -minPrice;
             }
-          
+           
         }
 
         return maxProfit;
