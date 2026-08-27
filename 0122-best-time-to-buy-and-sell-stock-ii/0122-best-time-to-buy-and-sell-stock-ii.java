@@ -7,8 +7,8 @@ class Solution {
             if (prices[i] > prices[i-1]){
                 maxProfit = maxProfit + prices[i] - prices[i-1] ;
             }
-        }
+        }  
 
         return maxProfit ; 
     }
-}
+}  
